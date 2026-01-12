@@ -1,0 +1,14 @@
+echo # Node modules> .gitignore
+echo ecommerce/node_modules/ >> .gitignore
+echo express-kysely-backend/node_modules/ >> .gitignore
+
+echo # Build outputs >> .gitignore
+echo ecommerce/.next/ >> .gitignore
+echo express-kysely-backend/dist/ >> .gitignore
+
+echo # Environment variables >> .gitignore
+echo ecommerce/.env* >> .gitignore
+echo express-kysely-backend/.env* >> .gitignore
+
+echo # OS files >> .gitignore
+echo .DS_Store >> .gitignore

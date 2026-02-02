@@ -1,7 +1,8 @@
-import HomePage from "../page";
+import ProfilePage from "@/src/pages/ProfilePage"
 
+// import HomePage from "../page";
 export default function Page() {
   return (
-    <HomePage />
+    <ProfilePage  />
   )
 }

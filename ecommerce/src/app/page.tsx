@@ -1,7 +1,7 @@
-import ProfilePage from "../pages/ProfilePage"
+import LoginPage from "./login/page"
 
 export default function Page() {
   return (
-    <ProfilePage  />
+    <LoginPage  />
   )
 }
